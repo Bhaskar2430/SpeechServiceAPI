@@ -1,0 +1,148 @@
+﻿@model JustSpeak.Models.StandardModelVM
+@{
+    ViewBag.Title = "Standard Speech";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h1>Standard</h1>
+@*<link rel="stylesheet" type="text/css" href="Styles/mb-ui.css" />
+<link rel="stylesheet" type="text/css" href="Styles/jquery-ui.css" />
+<script type="text/javascript" src="Scripts/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="Scripts/jquery-ui.js"></script>*@
+<style type="text/css">
+
+    .widthSize {
+        width: 30%;
+    }
+
+    .callout-header {
+        padding: 10px 10px;
+        background: #555;
+        font-size: 20px;
+        color: white;
+        height: 40px;
+    }
+
+    .callout-container {
+        padding: 15px;
+        background-color: #ccc;
+        color: black
+    }
+
+    .closebtn {
+        position: absolute;
+        top: 3px;
+        right: 25px;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+        .closebtn:hover {
+            color: lightgrey;
+        }
+
+    .alertStyle {
+        height: 40px !important;
+    }
+</style>
+
+<script type="text/javascript">
+    function submitform() {
+        document.getElementById("Speechform").submit();
+    }
+    //$(function () {
+    //    $("#btnSubmit").click(function () {
+    //        //var empLegalNames = '{LegalNames: "' + $("#txtName").val() + '" }';
+    //        //debugger;
+    //        //$.ajax({
+    //        //    type: "post",
+    //        //    url: "https://localhost:5001/api/TexttoSpeech",
+    //        //    contentType: "application/json; charset=utf-8",
+    //        //    dataType: "json",
+    //        //    data: { UserId: '100', textSpeech: 'Joe', phonetic:'JH AU'},
+    //        //    success: function (response) {
+    //        //        console.write(response);
+    //        //        alert("Hello: " + response.Name + ".\nCurrent Date and Time: " + response.DateTime);
+    //        //    },
+    //        //    failure: function (response) {
+    //        //        alert(response.responseText);
+    //        //    },
+    //        //    error: function (error) {
+    //        //        debugger;
+    //        //        console.write(error);
+    //        //        alert(response.responseText);
+    //        //    }
+    //        });
+    //    });
+    //});
+</script>
+
+<form method="post" id="Speechform" action="">
+
+    <div>
+        <hr />
+        <div class="form-horizontal col-md-7">
+
+            <div class="form-group">
+                <label asp-for="LegalNameId" class="control-label col-md-2"> Legal Name :</label>
+                <div class="col-md-10">
+                    <select asp-for="LegalNames" class="form-control" asp-items="ViewBag.ddlLegalNames" onchange="submitform()"></select>
+                </div>
+                <input type="text" id="i2" name="name" hidden />
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-10">
+                    <input type="submit" id="btnSubmit" value="Convert" class="btn btn-info" />
+                </div>
+
+
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-10">
+                    <audio controls="controls">
+                        <source src="~/Test.mp3" type="audio/mp3" />
+
+                    </audio>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+@*<form method="post" action="">
+    <table>
+        <tr>
+            <td> Legal Name :</td>
+            <td> <div class="col-md-10">
+                     <input type="text" id="i2" name="name"/>
+</div></td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Click to Play" />
+            </td>
+        </tr>
+    </table>
+</form>*@
+@*@using (Html.BeginForm("Submit", "Home", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>Enter ID: </td>
+                <td>@Html.TextBox("Id")</td>
+            </tr>
+            <tr>
+                <td>Enter Name: </td>
+                <td>@Html.TextBox("Name")</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    }*@

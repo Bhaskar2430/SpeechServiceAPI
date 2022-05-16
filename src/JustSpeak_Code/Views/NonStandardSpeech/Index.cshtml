@@ -1,0 +1,67 @@
+﻿@model JustSpeak.Models.StandardModelVM
+@{
+    ViewBag.Title = "Non Standard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .menu li.active {
+        background: #f76759;
+    }
+</style>
+<h1>Non Standard</h1>
+
+@*<form asp-controller="Home" asp-action="Index" method="post">
+        <div class="form-group">
+            <label asp-for="LegalNameId" class="control-label"></label>
+            <select asp-for="LegalNames" class="form-control" asp-items="ViewBag.ddlLegalNames"></select>
+
+        </div>
+        <div class="form-group">
+            <input  type="submit" value="Create" class="btn btn-info"  />
+
+        </div>
+
+    </form>*@
+
+<form method="post" action="">
+    <table>
+        <tr>
+            <td> User Id :</td>
+            <td><input type="text" /> </td>
+            <td><button class="btn-primary">Speak</button></td>
+        </tr>
+
+        <tr>
+            <td> Name :</td>
+            <td><input type="text" /> </td>
+        </tr>
+        <tr>
+            <td> Phonetic :</td>
+            <td><input type="text" /> </td>
+        </tr>
+        <tr>
+            <td> Country :</td>
+            <td>
+                <select name="Countries" id="Countries">
+                    <option value="United States">United States</option>
+                    <option value="India">India</option>
+                    <option value="England">England</option>
+                </select>
+                
+            </td>
+        </tr>
+        <tr>
+            <td> Slow/Fast :</td>
+            <td><input type="text" /> </td>
+            <td>
+                <select name="Speed" id="Speed">
+                    <options value="Slow">Slow</options>
+                    <options value="Slow">Fast</options>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> <button class="btn-dark" value="Save and Play">Save and Play</button></td>
+        </tr>
+    </table>
+    </form>
