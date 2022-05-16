@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechService.WebAPI", "WebAPIDemo\SpeechService.WebAPI.csproj", "{8D114432-2453-4FF4-B88E-2F2B642399EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webAPI", "webAPI", "{B72CA173-284E-4536-A9B0-DA969752175A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IOC", "Infra.IOC", "{4D3189E1-632C-4266-8950-C0AED2744321}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechService.Infra.IOC", "CleanArc.Infra.IOC\SpeechService.Infra.IOC.csproj", "{14AF3328-78E3-44FA-8FB2-FAF9D9823994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{296B871E-2821-4A98-B99B-BCB95424B1C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechService.Application", "CleanArc.Application\SpeechService.Application.csproj", "{0DCEC09A-7FC7-4184-9A0A-C99854281888}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{51E423D9-1A4C-4337-9884-129087796D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D114432-2453-4FF4-B88E-2F2B642399EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D114432-2453-4FF4-B88E-2F2B642399EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D114432-2453-4FF4-B88E-2F2B642399EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D114432-2453-4FF4-B88E-2F2B642399EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AF3328-78E3-44FA-8FB2-FAF9D9823994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AF3328-78E3-44FA-8FB2-FAF9D9823994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AF3328-78E3-44FA-8FB2-FAF9D9823994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AF3328-78E3-44FA-8FB2-FAF9D9823994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCEC09A-7FC7-4184-9A0A-C99854281888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCEC09A-7FC7-4184-9A0A-C99854281888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCEC09A-7FC7-4184-9A0A-C99854281888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCEC09A-7FC7-4184-9A0A-C99854281888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D114432-2453-4FF4-B88E-2F2B642399EE} = {B72CA173-284E-4536-A9B0-DA969752175A}
+		{14AF3328-78E3-44FA-8FB2-FAF9D9823994} = {4D3189E1-632C-4266-8950-C0AED2744321}
+		{0DCEC09A-7FC7-4184-9A0A-C99854281888} = {296B871E-2821-4A98-B99B-BCB95424B1C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAAAFE30-CFD8-4F70-A515-7FF90FD80656}
+	EndGlobalSection
+EndGlobal

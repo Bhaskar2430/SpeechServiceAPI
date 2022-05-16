@@ -1,0 +1,12 @@
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\bin\Debug\netcoreapp3.1\CleanArc.Infra.IOC.deps.json
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\bin\Debug\netcoreapp3.1\CleanArc.Infra.IOC.dll
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\bin\Debug\netcoreapp3.1\CleanArc.Infra.IOC.pdb
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\bin\Debug\netcoreapp3.1\CleanArc.Application.dll
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\bin\Debug\netcoreapp3.1\CleanArc.Application.pdb
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\obj\Debug\netcoreapp3.1\CleanArc.Infra.IOC.csprojAssemblyReference.cache
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\obj\Debug\netcoreapp3.1\CleanArc.Infra.IOC.AssemblyInfoInputs.cache
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\obj\Debug\netcoreapp3.1\CleanArc.Infra.IOC.AssemblyInfo.cs
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\obj\Debug\netcoreapp3.1\CleanArc.Infra.IOC.csproj.CoreCompileInputs.cache
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\obj\Debug\netcoreapp3.1\CleanArc.Infra.IOC.csproj.CopyComplete
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\obj\Debug\netcoreapp3.1\CleanArc.Infra.IOC.dll
+C:\Work\Development\WebAPI\WebAPIDemo\CleanArc.Infra.IOC\obj\Debug\netcoreapp3.1\CleanArc.Infra.IOC.pdb
