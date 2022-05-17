@@ -92,7 +92,7 @@ namespace CleanArc.Application.Services
             using (var response1 = webRequest.GetResponse() as HttpWebResponse)
             {
                 var sstream = response1.GetResponseStream();
-                using (FileStream stream = new FileStream(Path.Combine(outputFile, "Test"), FileMode.Create))
+                using (FileStream stream = new FileStream(Path.Combine(outputFile, "Test.mp3"), FileMode.Create))
                 {
                     sstream.CopyTo(stream);
                 }
